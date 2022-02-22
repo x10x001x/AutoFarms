@@ -74,7 +74,7 @@ spawn(function()
         repeat wait() until workspace:FindFirstChild("Map")
         repeat wait() until workspace.Waves:FindFirstChild("Wave").Value == wave
         repeat wait(0.1)
-            workspace.SellTower:InvokeServer(number)
+            workspace.SellTower:InvokeServer(n)
             until not workspace.Towers:FindFirstChild(n)
         end
     end)
