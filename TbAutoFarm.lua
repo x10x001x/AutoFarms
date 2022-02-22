@@ -1,3 +1,4 @@
+--https://web.roblox.com/games/45146873/Tower-Battles-WINTER
 repeat wait() until game:IsLoaded()
 local Tb = {}
 function survival() if game.PlaceId == 49707852 then return true else return false end end
